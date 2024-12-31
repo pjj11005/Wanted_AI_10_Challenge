@@ -1,0 +1,7 @@
+data
+.DS_Store
+__pycache__
+*.ckpt
+*.png
+*.jpg
+*.jpeg
