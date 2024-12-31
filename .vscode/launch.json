@@ -1,0 +1,142 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python 디버거: 현재 파일",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "2_train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}2nd${pathSeparator}Structure${pathSeparator}train.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}${pathSeparator}2nd${pathSeparator}Structure",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "justMyCode": false,
+            "args": [
+            ]
+        },
+        {
+            "name": "2_infer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}2nd${pathSeparator}Structure${pathSeparator}infer.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}${pathSeparator}2nd${pathSeparator}Structure",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "justMyCode": false,
+            "args": [
+            ]
+        },
+        {
+            "name": "3_train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}3rd${pathSeparator}LiveCodes${pathSeparator}train.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}${pathSeparator}3rd${pathSeparator}LiveCodes",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "justMyCode": false,
+            "args": [
+            ]
+        },
+        {
+            "name": "3_infer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}3rd${pathSeparator}LiveCodes${pathSeparator}infer.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}${pathSeparator}3rd${pathSeparator}LiveCodes",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "justMyCode": false,
+            "args": [
+            ]
+        },
+        {
+            "name": "3_error_handle",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}3rd${pathSeparator}ErrorHandle.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}${pathSeparator}3rd",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "justMyCode": false,
+            "args": [
+            ]
+        },
+        {
+            "name": "3_make_code",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}3rd${pathSeparator}LiveCodes${pathSeparator}MakeCodes.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}${pathSeparator}3rd${pathSeparator}LiveCodes",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "justMyCode": false,
+            "args": [
+            ]
+        },
+        {
+            "name": "4_meanstd",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}4th${pathSeparator}MeanStd.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}${pathSeparator}4th",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "justMyCode": false,
+            "args": [
+            ]
+        },
+        {
+            "name": "4_train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}4th${pathSeparator}CustomDataset${pathSeparator}train.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}${pathSeparator}4th${pathSeparator}CustomDataset",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "justMyCode": false,
+            "args": [
+            ]
+        },
+        {
+            "name": "4_infer",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}4th${pathSeparator}CustomDataset${pathSeparator}infer.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}${pathSeparator}4th${pathSeparator}CustomDataset",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            },
+            "justMyCode": false,
+            "args": [
+            ]
+        },
+    ]
+}
